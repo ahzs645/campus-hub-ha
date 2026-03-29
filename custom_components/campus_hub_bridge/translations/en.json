@@ -1,0 +1,46 @@
+{
+  "title": "Campus Hub Bridge",
+  "config": {
+    "abort": {
+      "single_instance_allowed": "Only one Campus Hub Bridge instance can be configured."
+    },
+    "error": {
+      "required": "This field is required.",
+      "invalid_url": "Enter a valid http or https URL."
+    },
+    "step": {
+      "user": {
+        "title": "Set up Campus Hub Bridge",
+        "description": "Configure the scoped API token and choose which Home Assistant entities Campus Hub can read.",
+        "data": {
+          "name": "Name",
+          "api_token": "API token",
+          "campus_hub_url": "Campus Hub URL",
+          "included_domains": "Included domains (comma-separated)",
+          "entity_allowlist": "Entity allowlist (comma-separated entity IDs)",
+          "expose_attributes": "Expose full entity attributes"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Campus Hub Bridge options",
+        "description": "Update the scoped API token and the exposure rules for Campus Hub.",
+        "data": {
+          "api_token": "API token",
+          "campus_hub_url": "Campus Hub URL",
+          "included_domains": "Included domains (comma-separated)",
+          "entity_allowlist": "Entity allowlist (comma-separated entity IDs)",
+          "expose_attributes": "Expose full entity attributes"
+        }
+      }
+    },
+    "error": {
+      "required": "This field is required.",
+      "invalid_url": "Enter a valid http or https URL."
+    }
+  }
+}
+

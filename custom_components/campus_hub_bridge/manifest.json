@@ -1,0 +1,13 @@
+{
+  "domain": "campus_hub_bridge",
+  "name": "Campus Hub Bridge",
+  "config_flow": true,
+  "dependencies": [
+    "http"
+  ],
+  "documentation": "https://github.com/ahmadjalil/campus-hub-ha",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/ahmadjalil/campus-hub-ha/issues",
+  "version": "0.1.0"
+}
+
